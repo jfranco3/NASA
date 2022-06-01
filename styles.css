@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    width: 850px;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url(./space.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    display:flex;
+    justify-content: space-between;
+    height: 324px;
+    background-color: rgb(186, 183, 183);
+    padding-left: 60px;
+    line-height: 10px;
+}
+
+
+
+div {
+    width:270px;
+}
+
+h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: larger;
+    color:black;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: rgb(65, 62, 62);
+    border: 2px solid rgb(74, 71, 71)
+
+}
